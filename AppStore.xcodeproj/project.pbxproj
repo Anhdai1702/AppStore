@@ -17,8 +17,8 @@
 		93EE4A252C9A392400B89F74 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 93EE4A242C9A392400B89F74 /* Base */; };
 		93EE4A4E2C9A3F4700B89F74 /* Extension-TableViewRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4A4C2C9A3F4700B89F74 /* Extension-TableViewRegister.swift */; };
 		93EE4A4F2C9A3F4700B89F74 /* Extension-UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4A4D2C9A3F4700B89F74 /* Extension-UIAlert.swift */; };
-		93EE4A552C9A3FE500B89F74 /* UserAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4A532C9A3FE500B89F74 /* UserAuthenticationViewController.swift */; };
-		93EE4A562C9A3FE500B89F74 /* UserAuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93EE4A542C9A3FE500B89F74 /* UserAuthenticationViewController.xib */; };
+		93EE4A552C9A3FE500B89F74 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4A532C9A3FE500B89F74 /* SignInViewController.swift */; };
+		93EE4A562C9A3FE500B89F74 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93EE4A542C9A3FE500B89F74 /* SignInViewController.xib */; };
 		93EE4A5A2C9A3FFE00B89F74 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4A582C9A3FFE00B89F74 /* OnboardingViewController.swift */; };
 		93EE4A5B2C9A3FFE00B89F74 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93EE4A592C9A3FFE00B89F74 /* OnboardingViewController.xib */; };
 		93EE4A5E2C9A400800B89F74 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4A5C2C9A400800B89F74 /* HomeViewController.swift */; };
@@ -61,8 +61,8 @@
 		93EE4A352C9A392500B89F74 /* AppStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93EE4A4C2C9A3F4700B89F74 /* Extension-TableViewRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension-TableViewRegister.swift"; sourceTree = "<group>"; };
 		93EE4A4D2C9A3F4700B89F74 /* Extension-UIAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension-UIAlert.swift"; sourceTree = "<group>"; };
-		93EE4A532C9A3FE500B89F74 /* UserAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthenticationViewController.swift; sourceTree = "<group>"; };
-		93EE4A542C9A3FE500B89F74 /* UserAuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserAuthenticationViewController.xib; sourceTree = "<group>"; };
+		93EE4A532C9A3FE500B89F74 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		93EE4A542C9A3FE500B89F74 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		93EE4A582C9A3FFE00B89F74 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		93EE4A592C9A3FFE00B89F74 /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
 		93EE4A5C2C9A400800B89F74 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -200,8 +200,9 @@
 		93EE4A512C9A3F6D00B89F74 /* UserAuthenticationViewController */ = {
 			isa = PBXGroup;
 			children = (
-				93EE4A532C9A3FE500B89F74 /* UserAuthenticationViewController.swift */,
-				93EE4A542C9A3FE500B89F74 /* UserAuthenticationViewController.xib */,
+				93EE4A632C9A40AC00B89F74 /* SignIn */,
+				93EE4A532C9A3FE500B89F74 /* SignInViewController.swift */,
+				93EE4A542C9A3FE500B89F74 /* SignInViewController.xib */,
 			);
 			path = UserAuthenticationViewController;
 			sourceTree = "<group>";
@@ -234,6 +235,13 @@
 			children = (
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		93EE4A632C9A40AC00B89F74 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 		F57A962A1EEF041789CDB91E /* Frameworks */ = {
@@ -357,7 +365,7 @@
 				93EE4A252C9A392400B89F74 /* Base in Resources */,
 				93EE4A5B2C9A3FFE00B89F74 /* OnboardingViewController.xib in Resources */,
 				93EE4A202C9A392300B89F74 /* Base in Resources */,
-				93EE4A562C9A3FE500B89F74 /* UserAuthenticationViewController.xib in Resources */,
+				93EE4A562C9A3FE500B89F74 /* SignInViewController.xib in Resources */,
 				93EE4A5F2C9A400800B89F74 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,7 +464,7 @@
 				93EE4A192C9A392300B89F74 /* AppDelegate.swift in Sources */,
 				93EE4A4F2C9A3F4700B89F74 /* Extension-UIAlert.swift in Sources */,
 				93EE4A5E2C9A400800B89F74 /* HomeViewController.swift in Sources */,
-				93EE4A552C9A3FE500B89F74 /* UserAuthenticationViewController.swift in Sources */,
+				93EE4A552C9A3FE500B89F74 /* SignInViewController.swift in Sources */,
 				93EE4A5A2C9A3FFE00B89F74 /* OnboardingViewController.swift in Sources */,
 				93EE4A4E2C9A3F4700B89F74 /* Extension-TableViewRegister.swift in Sources */,
 				93EE4A1B2C9A392300B89F74 /* SceneDelegate.swift in Sources */,
